@@ -32,7 +32,7 @@ section#hero .container{
 .title-container span:last-child {
     font-size: 100px;
     line-height: 80px;
-  }
+}
 
 main{
     border: 1px solid blue; 

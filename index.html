@@ -38,11 +38,56 @@
             height: inherit;
             min-height: inherit;
         }
+        .product-card{
+            font: #F0F0F0;
+            border-radius: 14px;
+            max-width: 25%;
+            overflow: hidden;
+        }
         .product-img{
             width: 100%;
             height: 250px;
             object-fit: cover;
             object-position: center center;
+        }
+        .product-info{
+            padding: 20px;
+            background-color: #F0F0F0;
+            box-sizing: border-box;
+        }
+        .product-title{
+            font-size: 22px;
+            font-weight: 700;
+            word-wrap:break-word;
+            display: block;
+            line-height: 22px;
+        }
+        .product-description{
+            font-size: 12px;
+            font-weight: 600;
+            color:#383838;
+            margin-bottom: 6px;
+        }
+        .product-price-block {
+            display: flex;
+            margin: 5px 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .product-price-block .price{
+            font-size: 22px; 
+            font-weight: 700;
+            flex:1;
+        }
+        .product-price-block .discount{
+            font-size: 12px; 
+            font-weight: 700;
+            color:#428f13;
+        }
+        .product-tax-policy{
+            font-size: 12px;
+            font-weight: 300;
+            color:#383838;
         }
     </style>
 </head>
@@ -62,20 +107,20 @@
             <div class="product-container">
                 <article class="product-card">
                     <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro"/>
-                        <div class="producto-info">
+                        <div class="product-info">
                             <span class="product-title">
                                 Macbook Pro 15'4
-                                <span class="product-description">
-                                    Space Gray
-                                </span>
-                                <div class="product-price-block">
-                                    <span class="price">$750</span>
-                                    <span class="discount">50%</span>
-                                
-                                <div class="product-tax-policy">
-                                    Incluye impuesto Pais y percepcion AFIP
-                                </div>
                             </span>
+                            <span class="product-description">
+                                    Space Gray
+                            </span>
+                            <div class="product-price-block">
+                                    <span class="price">$750</span>
+                                    <span class="discount">50% Off</span>
+                            </div>
+                            <div class="product-tax-policy">
+                                    Incluye impuesto Pais y percepcion AFIP
+                            </div>
                         </div>
                 </article>
             </div>

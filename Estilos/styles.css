@@ -10,6 +10,12 @@ section{
     border: 1px solid purple; 
     height: 340px; 
 }
+/*selector ID #hero*/
+#hero{
+    background:url(../assets/hero_bg.png);
+    background-size: cover;
+    background-position: top center;
+}
 main{
     border: 1px solid blue; 
     height: auto; 

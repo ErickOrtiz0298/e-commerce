@@ -6,38 +6,52 @@
     <title>Tienda Virtual</title>
     <style>
         header{
-            border: 10px solid red; 
+            border: 1px solid red; 
             height: 152px;
         }
         section{
-            border: 10px solid purple; 
-            height: 340 px; 
+            border: 1px solid purple; 
+            height: 340px; 
         }
         main{
-            border: 10px solid blue; 
+            border: 1px solid blue; 
             height: auto; 
         }
         footer{
-            border: 10px solid #009145; /*Hexadecimal color code*/
+            border: 1px solid #009145; /*Hexadecimal color code*/
             min-height: 368px;
+        }
+        .container{
+            width: 1220px;
+            margin: 0 auto;
+            border: 1px solid springgreen;
+            height: inherit;
+            min-height: inherit;
         }
     </style>
 </head>
 <body>
     <header>
-        Hola header
+        <div class="container">
+            Hola Header
+        </div>
     </header>
     <section>
-        Hola section
+        <div class="container">
+            Hola Section
+        </div>
     </section>
     <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-        voluptates. Quis fugit aut perspiciatis, tempora quos maxime doloremque
-        similique voluptas. Repellendus cupiditate, autem ab a vero eveniet
-        voluptatem animi excepturi!
+        <div class="container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+            voluptates. Quis fugit aut perspiciatis, tempora quos maxime doloremque
+            similique voluptas. Repellendus cupiditate, autem ab a vero eveniet
+            voluptatem animi excepturi!
+        </div>
+        
     </main>
     <footer>
-        Hola footer
+            Hola footer
     </footer>
 </body>
 </html>

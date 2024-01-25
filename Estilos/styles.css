@@ -5,7 +5,7 @@ body,html{
 
 /*Header*/
 header{
-    border: 1px solid red; 
+    /*border: 1px solid red; */
     height: 152px;
     background-color: #ff3b3c;
 }
@@ -64,7 +64,7 @@ header{
 /* Hero section */
 /*selector ID #hero*/
 section#hero{
-    border: 1px solid purple; 
+    /*border: 1px solid purple; */
     height: 340px; 
     background:url(../assets/hero_bg.png);
     background-size: cover;
@@ -90,13 +90,13 @@ section#hero .container{
 }
 
 main{
-    border: 1px solid blue; 
+    /*border: 1px solid blue; */
     height: auto; 
 }
 .container{
     width: 1220px;
     margin: 0 auto;
-    border: 1px solid springgreen;
+    /*border: 1px solid springgreen;*/
     height: inherit;
     min-height: inherit;
 }
@@ -160,7 +160,7 @@ main{
 
 /*Footer*/
 footer {
-    border: 1px solid #009145;
+    /*border: 1px solid #009145;*/
     /* Hexadecimal color code*/
     min-height: 368px;
     background-color: #7525a7;

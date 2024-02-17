@@ -261,3 +261,8 @@ footer {
     object-fit: contain; /* Asegura que la imagen se ajuste completamente dentro del contenedor */
     object-position: center center; /* Centra la imagen en el contenedor */
   }
+
+  /*Seccion de productos recomendados*/
+  .sales-title{
+    
+  }
